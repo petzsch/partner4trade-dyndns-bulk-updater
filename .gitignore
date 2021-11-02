@@ -1,0 +1,9 @@
+composer.lock
+composer.phar
+vendor/
+config.php
+ipv4.txt
+.htpasswd
+zones.d/
+error/
+stats/
