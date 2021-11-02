@@ -11,4 +11,4 @@
 5. create an empty directory zones.d
 6. on the CLI use php -f zone-downloader.php <zone.com> to download all of your DNS zones that you wish to modify by this script
 7. edit the zone file(s) to include the placeholders ({ipv4} and {ipv6} and {ipv6prefix}) -> the first two are the WAN IPs of the fritz!box, the later is your ipv6 prefix
-8. edit your fritz!box settings to include: username, domain, password and update URL: "dyn-hosting-domain.tld/ipv4.php?ipv4=<ipaddr>&domain=<domain> dyn-hosting-domain.tld/index.php?ipv6=<ip6addr>&ipv6prefix=<ip6lanprefix>&domain=<domain>" (2 URLs seperated by a Wwitespace
+8. edit your fritz!box settings to include: username, domain, password and update URL: `dyn-hosting-domain.tld/ipv4.php?ipv4=<ipaddr>&domain=<domain> dyn-hosting-domain.tld/index.php?ipv6=<ip6addr>&ipv6prefix=<ip6lanprefix>&domain=<domain>` (2 URLs seperated by a Wwitespace
